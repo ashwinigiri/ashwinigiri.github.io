@@ -42,6 +42,9 @@
         .mySlides9 {
             display: none;
         }
+        .mySlides10 {
+            display: none;
+        }
         
         /* Add a pointer when hovering over the thumbnail images */
         .cursor {
@@ -136,6 +139,9 @@
         .demo9{
             opacity: 0.6;
         }
+        .demo10{
+            opacity: 0.6;
+        }
         
         .active,
         .demo:hover {
@@ -179,6 +185,11 @@
 
         .active,
         .demo9:hover {
+            opacity: 1;
+        }
+
+        .active,
+        .demo10:hover {
             opacity: 1;
         }
 
